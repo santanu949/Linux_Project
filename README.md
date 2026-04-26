@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# 🐧 Linux Learning Assistant (LLA) v3.0 - Production Grade
+
+# 🐧 Linux Learning Assistant (LLA) v3.0 
 
 ![Linux](https://img.shields.io/badge/OS-Linux-orange?logo=linux)
 ![Python](https://img.shields.io/badge/Language-Python%203.8+-blue?logo=python)
@@ -300,4 +300,4 @@ Linux_Project/
 |---|---|---|
 | **Santanu Biswajit Samanta** | Author & Maintainer | Amity University, Mumbai |
 
->>>>>>> f62972e83650c287edd9ac3b3e716efafdd1eead
+
