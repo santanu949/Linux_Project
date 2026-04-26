@@ -1,0 +1,31 @@
+name: Linux Assistant Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set permissions
+      run: chmod +x setup.sh assistant.sh core/*.sh modules/*.sh
+      
+    - name: Run Setup
+      run: ./setup.sh
+      
+    - name: Test Diary Generation
+      run: cd core && bash generator.sh
+      
+    - name: Verify Diary Output
+      run: |
+        if [ -f tech_diary.txt ]; then
+          echo "Diary generated successfully."
+        else
+          echo "Diary generation failed."
+          exit 1
+        fi

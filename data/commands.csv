@@ -1,0 +1,11 @@
+command|category|tags|difficulty|description
+rm|File Ops|basics,deletion|Beginner|Remove files or directories.
+cat|File Ops|basics,read|Beginner|Display file contents.
+vim|Text Editors|intermediate,edit|Intermediate|Visual editor for text files.
+touch|File Ops|basics,create|Beginner|Create empty files or update timestamps.
+mkdir|File Ops|basics,folders|Beginner|Create new directories.
+ls|File Ops|basics,list|Beginner|List directory contents.
+pwd|System|basics,location|Beginner|Print working directory.
+cd|System|basics,navigation|Beginner|Change directory.
+chmod|Permissions|intermediate,security|Intermediate|Change file mode bits.
+grep|Text Processing|intermediate,search|Intermediate|Search text using patterns.

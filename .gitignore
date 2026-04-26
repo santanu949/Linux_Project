@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/.current_session
+backups/
+reports/*.md
+!reports/tech_diary.md
+linux_project2/
+linux_project2.zip
+.DS_Store
+.env

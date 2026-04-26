@@ -1,0 +1,47 @@
+[
+    {
+        "name": "ls",
+        "category": "File Ops",
+        "tags": ["basics", "list"],
+        "difficulty": "Beginner",
+        "description": "List directory contents.",
+        "examples": ["ls -la", "ls /etc"],
+        "bookmarked": false
+    },
+    {
+        "name": "grep",
+        "category": "Text Processing",
+        "tags": ["search", "filter"],
+        "difficulty": "Intermediate",
+        "description": "Search text using patterns.",
+        "examples": ["grep 'error' log.txt", "grep -r 'TODO' ."],
+        "bookmarked": false
+    },
+    {
+        "name": "chmod",
+        "category": "Permissions",
+        "tags": ["security", "access"],
+        "difficulty": "Intermediate",
+        "description": "Change file mode bits.",
+        "examples": ["chmod +x script.sh", "chmod 644 config.txt"],
+        "bookmarked": false
+    },
+    {
+        "name": "tar",
+        "category": "Archiving",
+        "tags": ["backup", "compression"],
+        "difficulty": "Intermediate",
+        "description": "Tape archiver tool.",
+        "examples": ["tar -czvf backup.tar.gz folder/"],
+        "bookmarked": false
+    },
+    {
+        "name": "ssh",
+        "category": "Networking",
+        "tags": ["remote", "secure"],
+        "difficulty": "Advanced",
+        "description": "Secure shell client.",
+        "examples": ["ssh user@host", "ssh -i key.pem user@host"],
+        "bookmarked": false
+    }
+]

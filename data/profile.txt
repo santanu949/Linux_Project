@@ -1,0 +1,5 @@
+name=Santanu Biswajit Samanta
+roll_no=65
+college=Amity University, Mumbai
+project=Linux Fundamentals Tech Diary
+version=2.0 (Advanced)
