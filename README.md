@@ -1,30 +1,4 @@
-Rewrite README.md with full structured narrative:
- Project identity (title, badges, description)
- Overview (problem statement, core idea)
- Key features
- System architecture / workflow
- Tech stack
- Setup & installation
- Usage guide
- Project structure
- Current status
- Contributors
-Output
-$ git push -v origin copilot/add-structured-readme
-Pushing to https://github.com/santanu949/Linux_Project
-To https://github.com/santanu949/Linux_Project
- = [up to date]      copilot/add-structured-readme -> copilot/add-structured-readme
-updating local tracking ref 'refs/remotes/origin/copilot/add-structured-readme'
-Everything up-to-date
 
-
-
-Progress reported successfully.
-
-Edit README.md
-Original file line number	Diff line number	Diff line change
-# Linux_Project
-This repository contains my Linux Fundamentals Tech Diary project. It includes my personal profile, my favorite Linux commands with explanations, and a log of commands I executed. The project is designed to practice basic Linux commands and is neatly documented and organized. This is part of a hands-on Linux learning bootcamp.
 # 🐧 Linux Fundamentals Tech Diary
 ![Linux](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=FCC624)
 ![Shell](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=4EAA25)
@@ -167,6 +141,5 @@ Linux_Project/
 ## 👤 Contributors
 | Name | Role | Institution |
 |---|---|---|
-| **Santanu Biswajit Samanta** | Author & Maintainer | Amity University, Mumbai (Roll No. 65) |
----
-> *"Growing with pride. Happy learning."* 🚀
+| **Santanu Biswajit Samanta** | Author & Maintainer | Amity University, Mumbai |
+
